@@ -1,0 +1,23 @@
+{
+  "name": "aula-1",
+  "version": "1.0.0",
+  "description": "Aula 1 - Fundamentos de automação de testes e scripts",
+  "main": "circle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flaviajanine/curso-testes-automatizados.git"
+  },
+  "author": "Flávia Béo - flavia.beo@ibm.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flaviajanine/curso-testes-automatizados/issues"
+  },
+  "homepage": "https://github.com/flaviajanine/curso-testes-automatizados#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "dependencies": {}
+}
