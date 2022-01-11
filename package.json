@@ -4,7 +4,7 @@
   "description": "Aula 1 - Fundamentos de automação de testes e scripts",
   "main": "circle.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --verbose --coverage"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "dependencies": {},
   "jest": {
+    "modulePathIgnorePatterns": ["<rootDir>/Aula 1"],
     "collectCoverage": true,
     "coverageReport": ["html"]
   }
