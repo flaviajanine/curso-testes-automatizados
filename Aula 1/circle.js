@@ -23,7 +23,7 @@ class Circle {
      * @return {Number}   
      */
     circleArea() {
-        const areaOfCircle = Math.PI * this.radius * this.radius
+        const areaOfCircle = Math.PI * this.radius * this.radius;
         return Math.round(areaOfCircle);
     }
 }

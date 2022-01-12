@@ -1,0 +1,69 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.11.1",
+  "description": "Simple boilerplate for React",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/webpack/bin/webpack.js --mode development",
+    "build": "./node_modules/webpack/bin/webpack.js --mode production",
+    "start:watch": "./node_modules/webpack/bin/webpack.js --mode development --watch",
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js  --mode development",
+    "test": "./node_modules/jest/bin/jest.js --env=jsdom",
+    "test:watch": "./node_modules/jest/bin/jest.js --watch --env=jsdom --verbose",
+    "test:watch:log": "TERM=dumb ./node_modules/jest/bin/jest.js --watch --env=jsdom --verbose",
+    "coverage": "npm test -- --coverage",
+    "eslint": "eslint ./src",
+    "profile": "./node_modules/webpack/bin/webpack.js --profile --json > stats.json",
+    "profile:analyze": "./node_modules/.bin/webpack-bundle-analyzer ./stats.json"
+  },
+  "keywords": [
+    "react"
+  ],
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flaviajanine/curso-testes-automatizados.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.3",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.4.0",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-react": "^7.26.1",
+    "html-webpack-plugin": "^5.4.0",
+    "jest": "^27.2.5",
+    "jest-cli": "^27.2.5",
+    "jest-environment-jsdom": "^27.2.5",
+    "jest-transform-stub": "^2.0.0",
+    "mini-css-extract-plugin": "^2.4.2",
+    "react-test-renderer": "^17.0.2",
+    "redux-mock-store": "^1.5.4",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.2.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.58.2",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "query-string": "^7.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^6.0.2",
+    "react-router-dom": "^6.0.2"
+  }
+}
