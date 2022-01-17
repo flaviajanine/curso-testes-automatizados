@@ -1,0 +1,4 @@
+URL=
+MONGO_URL=
+MONGO_DB_NAME=test-database
+MONGO_COLLECTION_NAME=documents
