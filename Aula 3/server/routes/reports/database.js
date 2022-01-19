@@ -1,10 +1,9 @@
-const Client = require('../../lib/client/mongoClient');
+const find = require('../../lib/client/find');
 
 database = async (req, res) => {
   try {
       const query = { _id: req.query.id };
-      const client = new Client();
-      const result = await client.find(query);
+      const result = await find(query);
       res.json(result);
   } catch (error) {
     console.log(error);
