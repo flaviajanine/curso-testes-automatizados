@@ -20,10 +20,14 @@ FNDA:1,(anonymous_5)
 FNDA:0,(anonymous_6)
 FNDA:2,(anonymous_7)
 <<<<<<< HEAD
+<<<<<<< HEAD
 FNDA:0,(anonymous_8)
 =======
 FNDA:1,(anonymous_8)
 >>>>>>> 126b970 (Aula 2: Comandos e Asserções)
+=======
+FNDA:1,(anonymous_8)
+>>>>>>> 126b970a91e05bc13aae45e8a538b82f22af2819
 DA:9,2
 DA:10,2
 DA:11,2
@@ -47,16 +51,22 @@ DA:64,0
 DA:66,0
 DA:73,2
 <<<<<<< HEAD
+<<<<<<< HEAD
 DA:81,0
 DA:87,1
 LF:24
 LH:19
 =======
+=======
+>>>>>>> 126b970a91e05bc13aae45e8a538b82f22af2819
 DA:81,1
 DA:87,1
 LF:24
 LH:20
+<<<<<<< HEAD
 >>>>>>> 126b970 (Aula 2: Comandos e Asserções)
+=======
+>>>>>>> 126b970a91e05bc13aae45e8a538b82f22af2819
 BRDA:33,0,0,1
 BRDA:33,0,1,1
 BRDA:35,1,0,3
