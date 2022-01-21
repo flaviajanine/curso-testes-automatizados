@@ -1,0 +1,28 @@
+{
+  "name": "routes-testing",
+  "version": "1.0.0",
+  "description": "Simple app for nodejs routes testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flaviajanine/curso-testes-automatizados.git"
+  },
+  "author": "Flávia Béo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flaviajanine/curso-testes-automatizados/issues"
+  },
+  "homepage": "https://github.com/flaviajanine/curso-testes-automatizados#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "mongodb": "^4.3.1",
+    "request-promise": "^4.2.6",
+    "supertest": "^6.2.1"
+  }
+}
