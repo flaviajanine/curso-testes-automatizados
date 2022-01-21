@@ -1,75 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642364205362" clover="3.2.0">
-  <project timestamp="1642364205363" name="All files">
-    <metrics statements="48" coveredstatements="42" conditionals="8" coveredconditionals="6" methods="12" coveredmethods="10" elements="68" coveredelements="58" complexity="0" loc="48" ncloc="48" packages="3" files="4" classes="4"/>
-    <package name="Aula 2">
-      <metrics statements="31" coveredstatements="26" conditionals="8" coveredconditionals="6" methods="11" coveredmethods="9"/>
-      <file name="array.js" path="/Users/flaviajanine/Library/Mobile Documents/com~apple~CloudDocs/Documents/Personal/curso-testes-automatizados/Aula 2/array.js">
-        <metrics statements="24" coveredstatements="19" conditionals="8" coveredconditionals="6" methods="9" coveredmethods="7"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="6" type="stmt"/>
-        <line num="33" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="35" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="37" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="38" count="1" type="stmt"/>
-        <line num="46" count="1" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
-        <line num="49" count="3" type="cond" truecount="1" falsecount="1"/>
-        <line num="50" count="3" type="stmt"/>
-        <line num="51" count="3" type="stmt"/>
-        <line num="54" count="1" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="63" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="66" count="0" type="stmt"/>
-        <line num="73" count="2" type="stmt"/>
-        <line num="81" count="0" type="stmt"/>
-        <line num="87" count="1" type="stmt"/>
-      </file>
-      <file name="developers.js" path="/Users/flaviajanine/Library/Mobile Documents/com~apple~CloudDocs/Documents/Personal/curso-testes-automatizados/Aula 2/developers.js">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="Aula 3.server.routes">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="/Users/flaviajanine/Library/Mobile Documents/com~apple~CloudDocs/Documents/Personal/curso-testes-automatizados/Aula 3/server/routes/index.js">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="Aula 3.server.routes.reports">
-      <metrics statements="12" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="documents.js" path="/Users/flaviajanine/Library/Mobile Documents/com~apple~CloudDocs/Documents/Personal/curso-testes-automatizados/Aula 3/server/routes/reports/documents.js">
-        <metrics statements="12" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1643070412606" clover="3.2.0">
+  <project timestamp="1643070412606" name="All files">
+    <metrics statements="31" coveredstatements="26" conditionals="8" coveredconditionals="6" methods="11" coveredmethods="9" elements="50" coveredelements="41" complexity="0" loc="31" ncloc="31" packages="1" files="2" classes="2"/>
+    <file name="array.js" path="/Users/flaviajanine/Library/Mobile Documents/com~apple~CloudDocs/Documents/Personal/curso-testes-automatizados/Aula 2/array.js">
+      <metrics statements="24" coveredstatements="19" conditionals="8" coveredconditionals="6" methods="9" coveredmethods="7"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="22" count="6" type="stmt"/>
+      <line num="33" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="37" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="49" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="50" count="3" type="stmt"/>
+      <line num="51" count="3" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="62" count="0" type="stmt"/>
+      <line num="63" count="0" type="stmt"/>
+      <line num="64" count="0" type="stmt"/>
+      <line num="66" count="0" type="stmt"/>
+      <line num="73" count="2" type="stmt"/>
+      <line num="81" count="0" type="stmt"/>
+      <line num="87" count="1" type="stmt"/>
+    </file>
+    <file name="developers.js" path="/Users/flaviajanine/Library/Mobile Documents/com~apple~CloudDocs/Documents/Personal/curso-testes-automatizados/Aula 2/developers.js">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="13" count="2" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+    </file>
   </project>
 </coverage>

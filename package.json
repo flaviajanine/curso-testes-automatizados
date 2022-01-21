@@ -19,10 +19,20 @@
   "devDependencies": {
     "jest": "^27.4.7"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jest-stare": "^2.3.0"
+  },
   "jest": {
-    "modulePathIgnorePatterns": ["<rootDir>/Aula 1", "<rootDir>/Aula 3", "<rootDir>/Aula 4"],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/Aula 1",
+      "<rootDir>/Aula 3",
+      "<rootDir>/Aula 4",
+      "<rootDir>/Aula 5"
+    ],
     "collectCoverage": true,
-    "coverageReport": ["html"]
+    "coverageReport": [
+      "html"
+    ],
+    "reporters": ["default", "jest-stare"]
   }
 }

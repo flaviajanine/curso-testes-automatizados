@@ -15,10 +15,5 @@ describe('App Developers Skills', () => {
         cy.get('li').should('be.visible');
         cy.contains('Skill Name: front-end');
     });
-    it('should load one skill after input with custom command', () => {
-        cy.get('input').type('front-end');
-        cy.clickButton('Search');
-        cy.get('li').should('be.visible');
-        cy.contains('Skill Name: front-end');
-    });
+
 });
