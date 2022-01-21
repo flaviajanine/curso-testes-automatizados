@@ -22,6 +22,7 @@ const App = () => {
   }]);
 
   const [showSkill, setShowSkill] = useState(false);
+  
   const [showSkills, setShowSkills] = useState(false);
 
   let listSkills = skillsData.map((skill, index) =>
