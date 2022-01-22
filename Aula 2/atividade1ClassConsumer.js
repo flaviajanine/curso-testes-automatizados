@@ -1,14 +1,14 @@
 const StringManipulations = require('./atividade1');
 
-class AdressMatcher {
+class AddressMatcher {
     /**
-     * Class for creating adress and manipulating objects
-     * @param  {string} adressText  string containing the address
+     * Class for creating address and manipulating objects
+     * @param  {string} addressText  string containing the address
      */
-     constructor(adressText) {
-        this.adressText = adressText;
+     constructor(addressText) {
+        this.addressText = addressText;
 
-        this.stringM = new StringManipulations(adressText);
+        this.stringM = new StringManipulations(addressText);
      }
 
      /**
@@ -30,4 +30,4 @@ class AdressMatcher {
     }
 }
 
-module.exports = AdressMatcher;
+module.exports = AddressMatcher;
