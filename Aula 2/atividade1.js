@@ -15,8 +15,10 @@ class StringManipulations {
      */
     findFirstMatch(subStr) {
         // [1] Confirm if the implementation is correct. The proposal wasn't clear.
-        if (this.string.match(subStr) != null) {
-            return this.string.match(subStr)
+        const regex = new RegExp(subStr, "i");
+        const matched = this.string.match(regex);
+        if (matched) {
+            return matched[0];
         } else {
             return "";
         }
@@ -31,10 +33,10 @@ class StringManipulations {
     findLastMatch(subStr) {
         // [2] Confirm if the implementation is correct. The proposal wasn't clear.
         let inverted = this.string.split("").reverse().join("");
-
-        if (inverted.match(subStr) != null) {
-            return inverted.match(subStr)
-
+        const regex = new RegExp(subStr, "i");
+        const matched = inverted.match(regex);
+        if (matched) {
+            return matched[0];
         } else {
             return "";
         }
@@ -47,7 +49,12 @@ class StringManipulations {
      * @return {String}
      */
     substringBetweenMatches(subStr1, subStr2) {
-        return this.string.match(`${subStr1}(.*)${subStr2}`)[1];
+        const matched = this.string.match(`${subStr1}(.*)${subStr2}`);
+        if (matched) {
+            return matched[1]
+        } else {
+            return "";
+        }
     }
 
     /**
@@ -80,7 +87,10 @@ class StringManipulations {
     */
     fix_start(str1) {
         const firstChar = str1.substring(0, 1);
-        const replaced = str1.slice(1).replaceAll(firstChar, "*");
+        // const replaced = subStr1.slice(1).replaceAll(firstChar, "*"); // Better solution, but Jest does not recognize because is a new feature: https://pt.stackoverflow.com/questions/513297/typeerror-replaceall-is-not-a-function
+        const replaced = str1.slice(1).split(firstChar).join("*");
         return firstChar.concat(replaced);
     }
 }
+
+module.exports = StringManipulations;
