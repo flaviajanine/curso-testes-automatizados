@@ -13,7 +13,12 @@ class StringManipulations {
      * @param  {String} subStr  substring to be matched
      * @return {String}
      */
-    findFirstMatch(subStr) {}
+    findFirstMatch(subStr) {
+        const first = new RegExp(subStr);
+        return this.string.indexOf(subStr => {
+            return subStr;
+        });
+    }
 
 
     /**
@@ -21,7 +26,12 @@ class StringManipulations {
      * @param  {String} subStr  substring to be matched
      * @return {String}
      */
-    findLastMatch(subStr) {}
+    findLastMatch(subStr) {
+        const last = new RegExp(subStr);
+        return this.string.lastIndexOf(subStr => {
+            return subStr;
+        });
+    }
 
     /**
      * Returns the fsubstring between two given other strings
@@ -29,7 +39,12 @@ class StringManipulations {
      * @param  {String} subStr2  ending of the match
      * @return {String}
      */
-    substringBetweenMatches(subStr1, subStr2) {}
+    substringBetweenMatches(subStr1, subStr2) {
+        return this.string.substring(
+            subStr1.lastIndexOf(":") + 1, 
+            subStr2.lastIndexOf(";")
+        );
+    }
 
     /**
     Given the string attribute of the class, 
