@@ -5,7 +5,7 @@ class StringManipulations {
      * @param  {String} string  
      */
     constructor(string) {
-        this.string = string;
+        this.string = string.toLowerCase();
     }
 
     /**
@@ -13,7 +13,15 @@ class StringManipulations {
      * @param  {String} subStr  substring to be matched
      * @return {String}
      */
-    findFirstMatch(subStr) {}
+    findFirstMatch(subStr) {
+
+        const fSubStr = this.string.indexOf(subStr.toLowerCase())
+        const lSubStr = this.string.indexOf(fSubStr, fSubStr + subStr.length)
+        // 6, 11
+        const matchStr = this.string.substring(fSubStr, fSubStr + subStr.length)
+
+        return matchStr
+    }
 
 
     /**
@@ -21,7 +29,14 @@ class StringManipulations {
      * @param  {String} subStr  substring to be matched
      * @return {String}
      */
-    findLastMatch(subStr) {}
+    findLastMatch(subStr) {
+        const fSubStr = this.string.indexOf(subStr.toLowerCase())
+        const lSubStr = this.string.indexOf(fSubStr, fSubStr + subStr.length)
+
+        const matchStr = this.string.substring(fSubStr, fSubStr + subStr.length)
+
+        return matchStr
+    }
 
     /**
      * Returns the fsubstring between two given other strings
@@ -29,7 +44,9 @@ class StringManipulations {
      * @param  {String} subStr2  ending of the match
      * @return {String}
      */
-    substringBetweenMatches(subStr1, subStr2) {}
+    substringBetweenMatches(subStr1, subStr2) {
+        
+    }
 
     /**
     Given the string attribute of the class, 
@@ -55,3 +72,5 @@ class StringManipulations {
     fix_start(str1) {}
 
 }
+
+module.exports = StringManipulations;
