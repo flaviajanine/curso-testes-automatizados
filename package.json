@@ -2,7 +2,7 @@
   "name": "aula-1",
   "version": "1.0.0",
   "description": "Aula 1 - Fundamentos de automação de testes e scripts",
-  "main": "circle.js",
+  "main": "atividade1.js",
   "scripts": {
     "test": "jest --verbose --coverage"
   },
