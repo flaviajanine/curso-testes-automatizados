@@ -14,10 +14,7 @@ class StringManipulations {
      * @return {String}
      */
     findFirstMatch(subStr) {
-        const first = new RegExp(subStr);
-        return this.string.indexOf(subStr => {
-            return subStr;
-        });
+        return this.string.indexOf(subStr);
     }
 
 
@@ -27,10 +24,7 @@ class StringManipulations {
      * @return {String}
      */
     findLastMatch(subStr) {
-        const last = new RegExp(subStr);
-        return this.string.lastIndexOf(subStr => {
-            return subStr;
-        });
+        return this.string.lastIndexOf(subStr);
     }
 
     /**
@@ -41,8 +35,8 @@ class StringManipulations {
      */
     substringBetweenMatches(subStr1, subStr2) {
         return this.string.substring(
-            subStr1.lastIndexOf(":") + 1, 
-            subStr2.lastIndexOf(";")
+            subStr1.lastIndexOf(" "), 
+            subStr2.lastIndexOf(" ")
         );
     }
 
@@ -70,3 +64,4 @@ class StringManipulations {
     fix_start(str1) {}
 
 }
+module.exports = StringManipulations;

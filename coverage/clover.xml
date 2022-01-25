@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642986336445" clover="3.2.0">
-  <project timestamp="1642986336445" name="All files">
-    <metrics statements="39" coveredstatements="26" conditionals="8" coveredconditionals="6" methods="19" coveredmethods="9" elements="66" coveredelements="41" complexity="0" loc="39" ncloc="39" packages="1" files="3" classes="3"/>
+<coverage generated="1643075133328" clover="3.2.0">
+  <project timestamp="1643075133328" name="All files">
+    <metrics statements="42" coveredstatements="36" conditionals="8" coveredconditionals="6" methods="20" coveredmethods="15" elements="70" coveredelements="57" complexity="0" loc="42" ncloc="42" packages="1" files="4" classes="4"/>
     <file name="array.js" path="C:\Users\vntvila\testeCurso\curso-testes-automatizados\Aula 2\array.js">
       <metrics statements="24" coveredstatements="19" conditionals="8" coveredconditionals="6" methods="9" coveredmethods="7"/>
       <line num="9" count="2" type="stmt"/>
@@ -30,15 +30,21 @@
       <line num="87" count="1" type="stmt"/>
     </file>
     <file name="atividade1.js" path="C:\Users\vntvila\testeCurso\curso-testes-automatizados\Aula 2\atividade1.js">
-      <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="0"/>
-      <line num="8" count="0" type="stmt"/>
-      <line num="17" count="0" type="stmt"/>
-      <line num="18" count="0" type="stmt"/>
-      <line num="19" count="0" type="stmt"/>
-      <line num="30" count="0" type="stmt"/>
-      <line num="31" count="0" type="stmt"/>
-      <line num="32" count="0" type="stmt"/>
-      <line num="43" count="0" type="stmt"/>
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="37" count="0" type="stmt"/>
+      <line num="67" count="1" type="stmt"/>
+    </file>
+    <file name="atividade1ClassConsumer.js" path="C:\Users\vntvila\testeCurso\curso-testes-automatizados\Aula 2\atividade1ClassConsumer.js">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="11" count="4" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
     </file>
     <file name="developers.js" path="C:\Users\vntvila\testeCurso\curso-testes-automatizados\Aula 2\developers.js">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>

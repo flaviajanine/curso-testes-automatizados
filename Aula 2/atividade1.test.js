@@ -1,29 +1,29 @@
-const StringManipulations = require('./atividade1');
+const StringManipulations = require("./atividade1");
 
 let string = {};
-const mockFilterByTerm = jest.fn();
 
-jest.mock('./array', () => {
-  return jest.fn().mockImplementation(() => {
-      return { filterByTerm : () => {
-          return {
-              id: 1,
-              url: "front-end"
-            };
-      }}
+describe("First String Manipulation class mock", () => {
+  beforeEach(() => {
+    first = new StringManipulations(string);
+  });
+
+  it("should initiate the StringManipulations and return the mock value", () => {
+    string = new StringManipulations(string);
+    const actual = string.findFirstMatch("Antonio Oliveira Silva");
+
+    expect(actual).toEqual("Antonio");
   });
 });
 
-describe("String Manipulations class mock", () => {
+describe("Last String Manipulation class mock", () => {
   beforeEach(() => {
-    StringManipulations.mockClear();
-    mockFilterByTerm.mockClear();
+    last = new StringManipulations(string);
   });
 
-  it('should call StringManipulations', () => {
-  
-  string = 'Não sei oque escrever por enquanto';
+  it("should initiate the StringManipulations and return the mock value", () => {
+    string = new StringManipulations(string);
+    const actual = string.findLastMatch("Antonio Oliveira Silva");
 
+    expect(actual).toEqual("Silva");
   });
-
 });
