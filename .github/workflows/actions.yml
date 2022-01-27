@@ -27,7 +27,7 @@ jobs:
           cache: npm
       
       - working-directory: ./Aula 4/ui-testing
-        run: npm install
+        run: npm install --force
       - working-directory: ./Aula 4/ui-testing
         run: npm run test
   cypress-run:
