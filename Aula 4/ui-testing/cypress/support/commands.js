@@ -17,7 +17,7 @@ Cypress.Commands.add('clickButton', (label) => {
 
 Cypress.Commands.add('typeText', (selector, text) => {
   cy.get(selector).type(text);
-});
+}); 
 //
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
