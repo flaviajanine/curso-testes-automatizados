@@ -1,26 +1,15 @@
 name: build-test
 
-on:
-  [push]
-
+on: [push]
   # configuração para pull requests
-
   # pull_request:
-
   #   paths-ignore:
-
   #     - '**.md'
-
   # push:
-
   #   branches:
-
   #     - main
-
   #     - releases/*
-
   #   paths-ignore:
-
   #     - '**.md'
 
 jobs:
@@ -36,6 +25,7 @@ jobs:
         with:
           node-version: 16.x
           cache: npm
+      
       - working-directory: ./Aula 4/ui-testing
         run: npm install
       - working-directory: ./Aula 4/ui-testing
@@ -47,8 +37,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Cypress run
         uses: cypress-io/github-action@v2
-        working-directory: ./Aula 4/ui-testing
-        run: npm install cypress
         with:
           working-directory: ./Aula 4/ui-testing
           #build: npm run build
