@@ -9,15 +9,20 @@ describe('App Developers Skills', () => {
         cy.get('li').should('be.visible');
         cy.get('ul').should('be.visible');
     });
-    it('should load one skill after input and click search button', () => {
-        cy.get('input').type('front-end');
-        cy.get('#search-button').click();
+
+    it('should fill all the fields and add the skill', () => {
+        cy.get('#input-skill').type('JavaScript');
+        cy.get('#input-developer').type('Maria');
+        cy.get('#input-technology').type('React');
+        cy.get('#input-role').type('Leader');
+        cy.get('#load-skills-button').click();
         cy.get('li').should('be.visible');
-        cy.contains('Skill Name: front-end');
+        cy.get('ul').should('be.visible');
     });
-    it('should load one skill after input with custom command', () => {
-        cy.get('input').type('front-end');
-        cy.clickButton('Search');
+
+    it.only('should click on the button and verify the response content', () => {
+        cy.get('#load-skills-button').click();
+        cy.get(':nth-child(11) > :nth-child(2)').should('contain', 'dev name 1');
         cy.get('li').should('be.visible');
         cy.contains('Skill Name: front-end');
     });
