@@ -20,10 +20,17 @@ describe('App Developers Skills', () => {
         cy.get('ul').should('be.visible');
     });
 
-    it.only('should click on the button and verify the response content', () => {
+    it('should click on the button and verify the response content', () => {
         cy.get('#load-skills-button').click();
         cy.get(':nth-child(11) > :nth-child(2)').should('contain', 'dev name 1');
         cy.get('li').should('be.visible');
         cy.contains('Skill Name: front-end');
+    });
+
+    it.only('should return the inputted technology', () => {
+        cy.typeText('#input-technology', 'React');
+        cy.get('#load-skills-button').click();
+        cy.get('li').should('be.visible');
+        cy.contains('React');
     });
 });
