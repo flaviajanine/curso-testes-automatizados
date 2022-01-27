@@ -1,0 +1,24 @@
+language: node_js
+node_js: 16
+
+before_script:
+  - cd Aula 5
+  - cd client
+  - npm i
+  - cd ..
+  - cd server
+  - npm i
+
+jobs:
+  include:
+  - stage: server test
+    script:
+    - npm run test
+  - stage: ui test
+    script:
+    - cd ..
+    - cd client
+    - npm run test
+  - stage: deploy
+    if: branch = master
+    script: npm run deploy
