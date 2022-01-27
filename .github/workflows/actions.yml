@@ -47,6 +47,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Cypress run
         uses: cypress-io/github-action@v2
+        working-directory: ./Aula 4/ui-testing
+        run: npm install
         with:
           working-directory: ./Aula 4/ui-testing
           #build: npm run build
