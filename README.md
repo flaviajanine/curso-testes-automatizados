@@ -12,9 +12,9 @@ Tópicos abordados nas aulas síncronas.
 | 13/01/22 | Criação de Casos de Teste + Comandos e Asserções |
 | 19/01/22 | Rotas + Mocks + Page Objects |
 | 20/01/22 | Ferramentas de automação de teste - Cypress |
-| 26/01/22 | DevOps Introdução + CI & CD |
-| 27/01/22 | Cobertura de Testes + Code Quality |
-| 28/01/22 | Gerador de relatórios Mochawesome + Custom Commands |
+| 26/01/22 | DevOps Introdução + CI & CD + Cobertura de Testes |
+| 27/01/22 | Gerador de relatórios Mochawesome + Custom Commands + Code Quality |
+| 28/01/22 | Conteúdo Extra |
 
 
 ## Como usar esse repositório para as atividades
